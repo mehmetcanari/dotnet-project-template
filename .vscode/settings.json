@@ -1,39 +1,48 @@
 {
-    "omnisharp.enableRoslynAnalyzers": true,
-    "omnisharp.enableEditorConfigSupport": true,
-    "dotnet.defaultSolution": "ProjectTemplate.sln", // Bu değişmeli
-    "omnisharp.useModernNet": true,
-    "omnisharp.enableMsBuildLoadProjectsOnDemand": true,
-    "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true,
-    "FSharp.suggestGitignore": false,
-    "editor.multiCursorModifier": "alt",
-    "omnisharp.maxProjectFileCountForWorkspaceSymbols": 1000,
-    "omnisharp.enableAsyncCompletion": true,
-    "omnisharp.useEditorFormattingSettings": true,
-    "dotnet.formatting.organizeImportsOnFormat": true,
-    "editor.fontSize": 14,
-    "editor.mouseWheelZoom": true,
-    
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll": true,
-      "source.organizeImports": true
-    },
-    "dotnet.inlayHints.enableInlayHintsForParameters": true,
-    "dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
-    "dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
-    "dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
-    "dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
-    "dotnet.inlayHints.suppressInlayHintsForParametersThatDifferOnlyBySuffix": true,
-    "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
-    "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchArgumentName": true,
-    
-    "files.exclude": {
-      "**/bin": true,
-      "**/obj": true,
-      "**/.vs": true,
-      "**/.vscode": true,
-      "**/.git": true,
-      "**/.idea": true
-    }
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "dotnet.defaultSolution": "ProjectTemplate.sln",
+  "omnisharp.useModernNet": true,
+  "omnisharp.enableMsBuildLoadProjectsOnDemand": true,
+  "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true,
+  "FSharp.suggestGitignore": false,
+  "editor.multiCursorModifier": "alt",
+  "omnisharp.maxProjectFileCountForWorkspaceSymbols": 1000,
+  "omnisharp.enableAsyncCompletion": true,
+  "omnisharp.useEditorFormattingSettings": true,
+  "dotnet.formatting.organizeImportsOnFormat": true,
+  "editor.fontSize": 14,
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "dotnet.inlayHints.enableInlayHintsForParameters": true,
+  "dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
+  "dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
+  "dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+  "dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+  "dotnet.inlayHints.suppressInlayHintsForParametersThatDifferOnlyBySuffix": true,
+  "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
+  "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchArgumentName": true,
+  "material-icon-theme.folders.associations": {
+    "DTOs": "contract",
+    "DTO": "contract",
+    "migrations": "database",
+    "migration": "database",
+    "projecttemplate.domain": "core",
+    "projecttemplate.application": "app",
+    "projecttemplate.infrastructure": "database",
+    "projecttemplate.api": "api",
+    "projecttemplate.tests": "test"
+  },
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true,
+    "**/.vs": true,
+    "**/.vscode": true,
+    "**/.git": true,
+    "**/.idea": true
   }
+}
